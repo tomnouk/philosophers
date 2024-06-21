@@ -6,7 +6,7 @@
 /*   By: anomourn <anomourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/21 12:37:23 by anomourn          #+#    #+#             */
-/*   Updated: 2024/06/21 14:28:42 by anomourn         ###   ########.fr       */
+/*   Updated: 2024/06/21 16:24:56 by anomourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,11 +72,11 @@ void ex1()
 	free_data(data);
 }
 
-int main()
-{
-	ex();
-	return (0);
-}
+// int main()
+// {
+// 	ex1();
+// 	return (0);
+// }
 
 
 

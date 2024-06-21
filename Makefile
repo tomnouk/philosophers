@@ -6,7 +6,7 @@
 #    By: anomourn <anomourn@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/19 11:03:26 by anoukmourna       #+#    #+#              #
-#    Updated: 2024/06/21 12:37:43 by anomourn         ###   ########.fr        #
+#    Updated: 2024/06/21 16:25:44 by anomourn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,9 @@ FILES = ./Mandatory/philo.c \
 		./Mandatory/utils.c \
 		./Mandatory/pars.c \
 		./Mandatory/test_thread.c \
-		./Mandatory/test_mutex.c
+		./Mandatory/test_mutex.c \
+		./Mandatory/init.c	\
+		./Mandatory/test_time.c
 
 FILES_BONUS = ./bonus/philo_bonus.c \
 		./bonus/utils_bonus.c \

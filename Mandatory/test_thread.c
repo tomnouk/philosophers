@@ -6,7 +6,7 @@
 /*   By: anomourn <anomourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/20 14:51:09 by anomourn          #+#    #+#             */
-/*   Updated: 2024/06/21 14:24:42 by anomourn         ###   ########.fr       */
+/*   Updated: 2024/06/21 16:43:48 by anomourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ void	*routine(void *arg)
 	int *num;
 	int i;
 	num = (int *)arg;
-	while(i < 100) //data reace
+	while(i < 100) //for data race
 	{
 		(*num)++;
 		i++;
@@ -87,6 +87,6 @@ void	test_2()
 
 // int main()
 // {
-// 	test_2();
+// 	test();
 // 	return (0);
 // }
