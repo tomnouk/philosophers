@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anoukmournard <anoukmournard@student.42    +#+  +:+       +#+        */
+/*   By: anomourn <anomourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/19 11:24:00 by anoukmourna       #+#    #+#             */
-/*   Updated: 2024/06/19 12:07:09 by anoukmourna      ###   ########.fr       */
+/*   Updated: 2024/06/21 14:17:42 by anomourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,12 @@
 #include <sys/time.h>
 #include <pthread.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 # define ARG_ERROR "Number of arguments is invalid.\n"
 # define DIGIT_ERROR "Arguments must be digits.\n"
 
 int	check_digital(char *s);
+void *routine(void *arg);
 
 #endif

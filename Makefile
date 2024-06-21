@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: anoukmournard <anoukmournard@student.42    +#+  +:+       +#+         #
+#    By: anomourn <anomourn@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/19 11:03:26 by anoukmourna       #+#    #+#              #
-#    Updated: 2024/06/19 12:40:57 by anoukmourna      ###   ########.fr        #
+#    Updated: 2024/06/21 12:37:43 by anomourn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = cc
 
-CFLAGS = -Wall -Wextra -Werror -g
+CFLAGS = -lpthread
 
 NAME = philo
 NAME_BONUS = philo_bonus
@@ -20,6 +20,8 @@ NAME_BONUS = philo_bonus
 FILES = ./Mandatory/philo.c \
 		./Mandatory/utils.c \
 		./Mandatory/pars.c \
+		./Mandatory/test_thread.c \
+		./Mandatory/test_mutex.c
 
 FILES_BONUS = ./bonus/philo_bonus.c \
 		./bonus/utils_bonus.c \
